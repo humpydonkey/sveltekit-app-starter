@@ -7,7 +7,7 @@
 	function drawerClose(): void {
 		drawerStore.close();
 	}
-	import { LogIn, LogOut, Contact2, UserCircle2, Lock } from 'lucide-svelte';
+	import { LogIn, LogOut, Contact2, UserCircle2, FolderTreeIcon } from 'lucide-svelte';
 	import Logo from '$lib/components/logo.svelte';
 	export let user: any;
 	let selectedLanguage: string = language || 'en';
@@ -40,7 +40,7 @@
 		</li>
 		<li>
 			<a href="/projects" on:click={drawerClose}>
-				<span><Lock /></span><span class="flex-auto">{i('protected')}</span></a
+				<span><FolderTreeIcon /></span><span class="flex-auto">{i('projects')}</span></a
 			>
 		</li>
 		{#if user}

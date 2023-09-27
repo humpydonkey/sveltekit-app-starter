@@ -12,6 +12,7 @@
   "firstName": "First Name",
   "lastName": "Last Name",
   "profile": "Profile",
+  "projects": "Projects",
   "home": "Home",
   "protected": "Protected",
   "auth": {
